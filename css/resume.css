@@ -188,9 +188,12 @@ img.icon:hover, img.icon:active, img.icon:focus{
 ul.languages-ul {
 	margin:0;
 }
-li.languages-li { 
-	display: inline; 
-	margin: 0 10px; 
+
+@media (min-width: 768px) {
+	li.languages-li { 
+		display: inline; 
+		margin: 0 10px; 
+	}
 }
 
 .icon-inline {
